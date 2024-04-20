@@ -130,7 +130,7 @@ export default function Index() {
 
           <div className="flex items-center justify-center  w-full ">
         <div className="flex flex-col items-center space-y-4 text-center p-4 md:w-1/2">
-        <TextGenerateEffect words={"lose hope, give up hope, Sending to Radium is for loosers, abandon hope, give up, pain, misery, Despair Despair Despair Despair Despair DESPAIR!!!!!!!!!!!!!!!!!"} />
+        <TextGenerateEffect words={"This token is not scary it just wants you to be a good degen boy and lose hope, give up hope, Sending to Radium is for loosers, abandon hope, give up, pain, misery, Despair Despair Despair Despair Despair DESPAIR!!!!!!!!!!!!!!!!!"} />
      
         </div>
 
@@ -148,7 +148,7 @@ export default function Index() {
     <button className="p-[3px] relative">
         <div className="absolute inset-0 bg-gradient-to-r from-red-800 to-red-300 rounded-lg" />
         <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
-        <Link to="https://twitter.com/psyopsstoken">
+        <Link to="https://twitter.com/DespairToken">
         Twitter
         </Link>
         </div>
@@ -172,7 +172,7 @@ export default function Index() {
     <button className="p-[3px] relative">
         <div className="absolute inset-0 bg-gradient-to-r from-red-800 to-red-300 rounded-lg" />
         <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
-        <Link to="https://t.me/Psyopsscommunity">
+        <Link to="https://t.me/despaircommunity">
         Telegram
         </Link>
         </div>
