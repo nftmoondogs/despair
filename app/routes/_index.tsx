@@ -107,7 +107,7 @@ export default function Index() {
             </span>{" "}
             Destruction of {" "}
             <Link
-              to="https://pump.fun/2FCD4WtVxvJvNHD7bgHX7q44KSAsqMqwi4xXRNfQren2"
+              to="https://pump.fun/46YoXhrjnH7WdCAebGdyn8HXpcHEJ1PA38Q9fYdXQjc4"
               className="font-extrabold bg-gradient-to-r from-red-800 via-red-300 to-red-50 text-transparent bg-clip-text bg-300% animate-gradient hover:text-emerald-500"
             >
               Pump.fun
