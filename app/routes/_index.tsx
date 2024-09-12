@@ -107,7 +107,7 @@ export default function Index() {
             </span>{" "}
             Destruction of {" "}
             <Link
-              to="https://dexscreener.com/moonshot"
+              to="https://dexscreener.com/solana/Dyh4N5zULRejeVREZLCxM2NrLtA6VeAeRC2bce9pnDM"
               className="font-extrabold bg-gradient-to-r from-red-800 via-red-300 to-red-50 text-transparent bg-clip-text bg-300% animate-gradient hover:text-emerald-500"
             >
               MoonShot
