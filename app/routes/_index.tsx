@@ -1,20 +1,15 @@
-import { Button } from "~/components/ui/button";
-import { Link } from "@remix-run/react";
-import { Command } from "lucide-react";
-import { Card, CardContent } from "~/components/ui/card";
-import { ThemeToggle } from "./resources.theme-toggle";
-import { Hero3DCard } from "~/components/hero-3d-card";
-import { Card2 } from "~/components/card2";
-import { SparklesCore } from "~/components/ui/sparkles";
-import { TextGenerateEffect } from "~/components/ui/text-generate-effect";
-import { LampDemo } from "~/components/ui/lamp";
-import { CardStack } from "~/components/ui/card-stack"; 
+import { Card2 } from '~/components/card2';
+import { Hero3DCard } from '~/components/hero-3d-card';
+import { Card } from '~/components/ui/card';
+import {
+  HeroParallax,
+} from '~/components/ui/hero-parallax';  // Corrected import path
+import { SparklesCore } from '~/components/ui/sparkles';
+import { TextGenerateEffect } from '~/components/ui/text-generate-effect';
 
-import { TextRevealCard, TextRevealCardTitle, TextRevealCardDescription } from "~/components/ui/text-reveal-card";
-import { AnimatedTooltipPreview } from "~/components/animated-preview";
-import { HeroParallax } from "~/components/ui/hero-parallax";  // Corrected import path
-import { AnimatedPinDemo } from "~/components/animated-3d-pin";
+import { Link } from '@remix-run/react';
 
+import { ThemeToggle } from './resources.theme-toggle';
 
 const stackCards = [
   {
@@ -107,10 +102,10 @@ export default function Index() {
             </span>{" "}
             Destruction of {" "}
             <Link
-              to="https://raydium.io/launchpad/"
+              to="https://x.com/launchcoin"
               className="font-extrabold bg-gradient-to-r from-red-800 via-red-300 to-red-50 text-transparent bg-clip-text bg-300% animate-gradient hover:text-emerald-500"
             >
-              LaunchLab
+              LaunchCoin
             </Link>
           </h1>
 
@@ -160,8 +155,8 @@ export default function Index() {
     <button className="p-[3px] relative">
         <div className="absolute inset-0 bg-gradient-to-r from-red-800 to-red-300 rounded-lg" />
         <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
-        <Link to="https://raydium.io/launchpad/">
-      LaunchLab
+        <Link to="https://x.com/launchcoin">
+      LaunchCoin
         </Link>
         </div>
       </button>
