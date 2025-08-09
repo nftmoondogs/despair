@@ -102,10 +102,10 @@ export default function Index() {
             </span>{" "}
             Destruction of {" "}
             <Link
-              to="https://x.com/launchcoin"
+              to="https://pump.fun/board?coins_sort=created_timestamp"
               className="font-extrabold bg-gradient-to-r from-red-800 via-red-300 to-red-50 text-transparent bg-clip-text bg-300% animate-gradient hover:text-emerald-500"
             >
-              LaunchCoin
+              Pump.Fun
             </Link>
           </h1>
 
@@ -155,8 +155,8 @@ export default function Index() {
     <button className="p-[3px] relative">
         <div className="absolute inset-0 bg-gradient-to-r from-red-800 to-red-300 rounded-lg" />
         <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
-        <Link to="https://x.com/launchcoin">
-      LaunchCoin
+        <Link to="https://pump.fun/board?coins_sort=created_timestamp">
+      Pump.Fun
         </Link>
         </div>
       </button>
