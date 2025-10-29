@@ -155,7 +155,7 @@ export default function Index() {
     <button className="p-[3px] relative">
         <div className="absolute inset-0 bg-gradient-to-r from-red-800 to-red-300 rounded-lg" />
         <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
-        <Link to="https://four.meme">
+        <Link to="https://four.meme/token/0x15f0c5545b6d6aa55b0f8f00a39845a581f04444">
       Four.Meme
         </Link>
         </div>
